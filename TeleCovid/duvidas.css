@@ -1,0 +1,136 @@
+body {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.titulo-header {
+  background: #3B9D14;
+  color: #fff;
+  padding: 20px;
+}
+
+.titulo-header h1 {
+  font-size: 3vw;
+}
+
+.titulo-header a {
+  font-size: 3vw;
+  color: #fff;
+}
+
+footer {
+  background-color: #3B9D14;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.titulo-rodape {
+  color: #fff;
+  margin: 0;
+}
+
+.menu-rodape a {
+  color: #fff;
+}
+
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.nomargin {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.PageTitle {
+  text-align: center;
+}
+
+.CardDuvidaWrapper {
+  padding: 15px;
+}
+
+.CardDuvida {
+  border: 1px solid grey;
+  max-height: 100%;
+}
+
+.CardDuvida__Body.card-body {
+  border: 1 px solid grey;
+  padding: 0;
+}
+
+.CardDuvida__PerguntaWrapper {
+  
+}
+
+.CardDuvida__Avatar {
+  display: inline-block;
+}
+
+.CardDuvida__Pergunta {
+  display: inline;
+}
+
+.CardDuvida__FirstRow {
+  border-bottom: 1px solid grey;
+  margin-right: 0;
+  margin-left: 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.CardDuvida__Response {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+
+.CardDuvida__ResponseIcon{
+  border-radius: 0.25rem;
+  padding-right: 0;
+  background-color:white;
+  border: none;
+}
+
+.CardDuvida__ResponseIcon:hover {
+  cursor: pointer;
+}
+
+.CardDuvida__Input{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.CardDuvida__SendIcon{
+  border-radius: 0.25rem;
+  padding-left: 0;
+  padding-right: 0;
+  background-color:white;
+  border: none;
+}
+
+.CardDuvida__SendIcon:hover {
+  cursor: pointer;
+}
+
+.CardDuvida__InputText {
+  width: 90%;
+}
+
+
+.menu-header .link {
+  background: lightblue;
+  border: 1px inset #adadad;
+  color: #333;
+  text-align: center;
+  padding: 10px;
+  transition: background ease 250ms;
+  font-weight: bold;
+}
+
+.menu-header .link:hover {
+  background: #a4cdda;
+  text-decoration: none;
+}
