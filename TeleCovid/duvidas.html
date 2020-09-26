@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>TeleCovid</title>
+	
+	
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="covid.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700" rel="stylesheet">
+</head>
+	<body>
+		<header>
+			<div class="container-fluid titulo-header">
+				<div class="row">
+					<a href="telecovid.html">
+					<div class="col-sm-12">
+						<h1>TeleCovid</h1>
+					</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-fluid menu-header">
+				<div class="row">
+					<a href="CuidadosComSaude.html" class="col-sm-3">
+						Cuidados com a saúde
+					</a>
+					<a href="#" class="col-sm-6">
+						Tire suas dúvidas com os profissionais
+					</a>
+					<a href="#" class="col-sm-3">
+						Sou profissional - Login
+					</a>
+				</div>
+			</div>
+			
+			<div class="">
+				<nav aria-label="breadcrumb">
+					<ol class="breadcrumb">
+					  <li class="breadcrumb-item"><a href="telecovid.html">Início</a></li>
+					  <li class="breadcrumb-item active" aria-current="page">Dúvidas</li>
+					</ol>
+				  </nav>
+			</div>
+		</header>
+
+		<div class="container">
+
+			<div class="form-group">
+			  <label for="nome">Nome:</label>
+			  <input type="text" class="form-control" id="nome" placeholder="nome">
+			</div>
+			<div class="form-group">
+			  <label for="email">Email:</label>
+			  <input type="text" class="form-control" id="email" placeholder="email">
+			</div>
+			<div class="form-row">
+			  <div class="form-group col-md-4">
+				<label for="inputProfissional">Escolha o Profissional:</label>
+				<select id="inputProfissional" class="form-control" aria-expanded="true">
+					<option selected>Selecione</option>
+				  	<option >Direito - Advogados</option>
+				  	<option >Profissional da Saúde</option>
+				  	<option >Profissional da Prefeitura</option>
+				  	<option >Nutricionista</option>
+				</select>
+			  </div>
+			</div>
+		
+			<div class="form-group">
+				<label id="duvida">Digite a sua dúvida:</label>
+				<textarea class="form-control" aria-label="With textarea"></textarea>
+			  </div>
+			<div class="form-row" >
+				<button type="submit" class="btn btn-secondary btn-sm" role="button">Cancelar</button>
+				<button type="submit" class="btn btn-primary btn-sm" role="button">Enviar</button>
+			</div>
+			<br>
+		 </div>
+
+		<footer class="container-fluid">
+			<div class="row">
+				<div class="col-sm-4">
+					<h1 class="titulo-rodape">
+						&copy; Telecovid
+					</h1>
+				</div>
+				<div class="col-sm-4">
+					<ul class="menu-rodape">
+						<li>
+							<a href="telecovid.html">
+								Início
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Sobre nós
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Contato
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+		</footer>
+	</body>		
+</html>

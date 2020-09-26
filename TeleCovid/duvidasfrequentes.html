@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<title>TeleCovid</title>
+	<meta charset="utf-8">
+	
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="covid.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700" rel="stylesheet">
+</head>
+	<body>
+		<header>
+			<div class="container-fluid titulo-header">
+				<div class="row">
+					<div class="col-sm-12">
+						<a href="telecovid.html">
+						<h1>TeleCovid</h1>
+						</a>
+					</div>
+				</div>
+				  <form class="form-inline">
+					<input class="form-control mr-sm-2" type="text" placeholder="Pesquisar" aria-label="Search">
+					<button class="button" type="submit">Pesquisar</button>
+				  </form>
+			</div>
+
+			<div class="container-fluid menu-header">
+				<div class="row">
+					<a href="CuidadosComSaude.html" class="col-sm-3">
+						Cuidados com a saúde
+					</a>
+					<a href="duvidas.html" class="col-sm-6">
+						Tire suas dúvidas com os profissionais
+					</a>
+					<a href="#" class="col-sm-3">
+						Sou profissional - Login
+					</a>
+				</div>
+			</div>
+
+			<div class="">
+				<nav aria-label="breadcrumb">
+					<ol class="breadcrumb">
+					  <li class="breadcrumb-item"><a href="telecovid.html">Início</a></li>
+					  <li class="breadcrumb-item active" aria-current="page">Dúvidas Frequentes</li>
+					</ol>
+				  </nav>
+			</div>
+
+		</header>
+
+		<section id="banner">
+ 			<div class="a">
+			<p>Dúvidas frequentes - FAQ</p>
+				
+			<button class="collapsible">1 - O que é coronavírus?</button>
+			<div  class="content" >
+			  <span>O Coronavírus, causador da pandemia global, pertence a uma família de vírus (CoV) que já circula no Brasil. Os vírus dessa família podem causar desde resfriados comuns a doenças mais graves, como a Síndrome Aguda Respiratória Severa (SARS) e a Síndrome Respiratória do Oriente Médio (MERS).</span>
+			</div>
+			<button class="collapsible">2 - Quais são os sintomas?</button>
+			<div class="content">
+			  <span>Os sintomas da COVID-19 podem variar de um resfriado, a uma Síndrome Gripal-SG (presença de um quadro respiratório agudo, caracterizado por, pelo menos dois dos seguintes sintomas: sensação febril ou febre associada a dor de garganta, dor de cabeça, tosse, coriza) até uma pneumonia severa. Sendo os sintomas mais comuns:<br>
+
+				Tosse;<br>
+				Febre;<br>
+				Coriza;<br>
+				Dor de garganta;<br>
+				Dificuldade para respirar;<br>
+				Perda de olfato (anosmia);<br>
+				Alteração do paladar (ageusia);<br>
+				Distúrbios gastrintestinais (náuseas/vômitos/diarreia);<br>
+				Cansaço (astenia);<br>
+				Diminuição do apetite (hiporexia);<br>
+				Dispnéia ( falta de ar).
+			
+				</span>
+			</div>
+			<button class="collapsible">3 - O que fazer se eu estiver doente?</button>
+			<div class="content">
+			  <span>Se estiver doente, com sintomas compatíveis com a COVID-19, tais como febre, tosse, dor de garganta e/ou coriza, com ou sem falta de ar, evite contato físico com outras pessoas, incluindo os familiares, principalmente, idosos e doentes crônicos, busque atendimento nos serviços de saúde e siga as orientações médicas.</span>
+			</div>
+			<button class="collapsible">4 - Como deve ser feito o período de quarentena?</button>
+			<div class="content">
+			  <span>Deve ser um período de isolamento domiciliar, evitando contato também com os outros moradores da casa, especialmente se forem idosos ou pessoas com doenças crônicas. Adotar uso de máscara cirúrgica, não compartilhar objetos, lavar frequentemente as mãos, lavar frequentemente o nariz com soro fisiológico.</span>
+			</div>
+			<br>
+		
+
+			<script>
+				var coll = document.getElementsByClassName("collapsible");
+				var i;
+
+				for (i = 0; i < coll.length; i++) {
+				  coll[i].addEventListener("click", function() {
+					this.classList.toggle("active");
+					var content = this.nextElementSibling;
+					if (content.style.maxHeight){
+					  content.style.maxHeight = null;
+					} else {
+					  content.style.maxHeight = content.scrollHeight + "px";
+					} 
+				  });
+				}
+			</script>
+		
+			<footer class="container-fluid">
+				<div class="row">
+				<div class="col-sm-4">
+					<h1 class="titulo-rodape">
+						&copy; Telecovid
+					</h1>
+				</div>
+				<div class="col-sm-4">
+					<ul class="menu-rodape">
+						<li>
+							<a href="telecovid.html">
+								Início
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Sobre Nós
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Contato
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			</footer>
+		
+		</section>
+		
+	</body>		
+</html>

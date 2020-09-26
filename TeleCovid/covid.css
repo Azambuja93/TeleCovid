@@ -14,6 +14,11 @@ body {
     font-size: 3vw;
 }
 
+.titulo-header a {
+    font-size: 3vw;
+    color: #fff;
+}
+
 .menu-header a {
     background: lightblue;
     border: 1px inset #adadad;
@@ -54,11 +59,12 @@ body {
     width: 100%;
     margin: 0;
     padding: 60px 0;
-    font-size: 2.5vw;
+    font-size: 1.8vw;
     text-align: center;
     color: #333;
     font-weight: bold;
     font-family: "Open Sans", sans-serif;
+    background-color: #fff;
 }
 
 #banner img {
@@ -125,3 +131,103 @@ footer {
 .menu-rodape a {
     color: #fff;
 }
+
+.collapsible {
+    background-color: #ccc;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;   
+    outline: none;
+    font-size: 20px;
+  }
+
+  .active, .collapsible:hover {
+    background-color: #dcdcdc;
+  }
+
+  .collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+
+  .active:after {
+    content: "\2212";
+  }
+
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #cfcfc4;
+  }
+
+  span {
+      font-size: 20px;
+  }
+
+
+  footer {
+    background-color: #3B9D14;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .titulo-rodape {
+    color: #fff;
+    margin: 0;
+  }
+  
+  .menu-rodape a {
+    color: #fff;
+  }
+  
+  .nopadding {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .PageTitle {
+    text-align: center;
+  }
+  
+  .CardDuvidaWrapper {
+    padding: 15px;
+  }
+  
+  .CardDuvida {
+    border: 1px solid grey;
+    height: 100px;
+  }
+  
+  .CardDuvida__Body {
+    border: 1 px solid grey;
+  }
+  
+  .CardDuvida__PerguntaWrapper {
+    
+  }
+  
+  .CardDuvida__Avatar {
+    display: inline-block;
+  }
+  
+  .CardDuvida__Pergunta {
+    display: inline;
+  }
+  
+  .CardDuvida__FirstRow {
+    border-bottom: 1px solid grey;
+    margin-right: -20px;
+    margin-left: -20px;
+  }
+  
+  .CardDuvida__Response {
+    
+  }
