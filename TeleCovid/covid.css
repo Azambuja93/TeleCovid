@@ -7,6 +7,7 @@ body {
     background: #3B9D14;
     color: #fff;
     padding: 20px;
+    height: 150px;
 }
 
 .titulo-header h1 {
@@ -27,6 +28,21 @@ body {
     background: #a4cdda;
     text-decoration: none;
 }
+
+.form-inline{
+    float: right;
+}
+
+.button {
+    background-color: #e7e7e7;
+    border: none;
+    color: black;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
 
 #banner {
     margin-bottom: 70px;
